@@ -1,0 +1,35 @@
+/* styles.css */
+
+/* Fuente sans-serif para todo el sitio */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo del menú */
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #333;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Cuadros de colores */
+.color-box {
+    height: 25%;
+    padding: 20px;
+    color: #fff;
+}
+
+.blue { background-color: #0074D9; }
+.yellow { background-color: #FFDC00; }
+.orange { background-color: #FF851B; }
+.red { background-color: #FF4136; }
